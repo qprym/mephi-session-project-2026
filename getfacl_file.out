@@ -1,0 +1,12 @@
+# file: data/mephi-2026/acl_demo.txt
+# owner: user1
+# group: developers
+user::rw-
+user:user1:rwx  #effective:rw-
+user:user2:rwx  #effective:rw-
+user:user3:rwx  #effective:rw-
+group::rwx      #effective:rw-
+group:curators:r-x      #effective:r--
+mask::rw-
+other::---
+

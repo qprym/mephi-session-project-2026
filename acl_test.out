@@ -1,0 +1,12 @@
+user2 читает и пишет в файл user1
+hello from user1
+user2 WRITE: OK
+curator1 читает
+hello from user1
+user2 writes
+curator1 пытается писать (должно быть отказано)
+bash: строка 1: /data/mephi-2026/acl_demo.txt: Отказано в доступе
+exit code: 1
+qprym (посторонний) пытается ls (должно быть отказано)
+ls: невозможно открыть каталог '/data/mephi-2026/': Отказано в доступе
+exit code: 2
